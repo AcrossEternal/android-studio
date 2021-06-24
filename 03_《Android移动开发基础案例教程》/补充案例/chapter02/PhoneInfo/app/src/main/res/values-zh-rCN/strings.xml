@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手机信息页面</string>
+    <string name="menu_settings">设置</string>
+    <string name="hello_world">你好，世界!</string>
+    <string name="_cloud">云通信</string>
+    <string name="_bluetooth">蓝牙</string>
+    <string name="_gesture">自定义手势</string>
+    <string name="_gps">定位</string>
+    <string name="_system_info">系统信息</string>
+    <string name="_internet">网络</string>
+    <string name="_language">语言设置</string>
+    <string name="_set_notifycation">通知栏设置</string>
+</resources>

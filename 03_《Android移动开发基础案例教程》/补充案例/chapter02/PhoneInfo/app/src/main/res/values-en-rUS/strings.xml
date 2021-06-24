@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhoneInfo</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="_cloud">Cloud</string>
+    <string name="_bluetooth">Bluetooth</string>
+    <string name="_gesture">Gesture</string>
+    <string name="_gps">Gps</string>
+    <string name="_system_info">SystemInfo</string>
+    <string name="_internet">Internet</string>
+    <string name="_language">Language</string>
+    <string name="_set_notifycation">Notifycation</string>
+</resources>
