@@ -1,0 +1,2 @@
+rootProject.name = "RegisUserInfo"
+include ':app'

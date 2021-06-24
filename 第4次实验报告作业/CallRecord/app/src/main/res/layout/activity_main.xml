@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212021"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+        <RelativeLayout
+            android:id="@+id/rl_dialedCalls"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/tv_dialedCalls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="已拨电话"
+                android:textColor="#5a5d5a" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000" />
+        <RelativeLayout
+            android:id="@+id/rl_receivedCall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/tv_receivedCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="已接电话"
+                android:textColor="#5a5d5a" />
+        </RelativeLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:background="#000000" />
+        <RelativeLayout
+            android:id="@+id/rl_missedCall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+            <TextView
+                android:id="@+id/tv_missedCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="未接电话"
+                android:textColor="#5a5d5a" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_title"
+        android:divider="#313431"
+        android:dividerHeight="1px" />
+</RelativeLayout>
