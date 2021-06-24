@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cz_bj"
+    tools:context="registercard.homework3.wdj.registercard.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/cz_shade_ll">
+        <TextView
+            android:id="@+id/tv_phone"
+            style="@style/tvStyle"
+            android:text="手机号码："
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/edtTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_phone"/>
+</RelativeLayout>
+<RelativeLayout
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cz_shade_ll">
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/tvStyle"
+                android:text="昵        称："
+                android:textSize="20dp"
+                android:textColor="#000000"/>
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/edtTxtStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_name"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/cz_shade_button"
+        android:text="注册新用户"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+</RelativeLayout>
